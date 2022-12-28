@@ -1,4 +1,4 @@
-package desafios;
+package fundamentos.desafios;
 
 public class desafioOperadoresAritimeticos {
 public static void main(String[] args) {
