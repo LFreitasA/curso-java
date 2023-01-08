@@ -18,8 +18,8 @@ public class ClienteTeste {
 		
 		System.out.println(compra1.cliente.nome);
 		// Compra compra1 = new Compra(cliente1, )
-
-		cliente1.obterValorTotal(compra1);
+		double valorTotal = compra1.obterValorTotal();
+		System.out.println("Total da compra = " + valorTotal);
 
 	}
 }

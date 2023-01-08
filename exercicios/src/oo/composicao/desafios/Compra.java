@@ -17,4 +17,13 @@ public class Compra {
 		listaDeCompras.add(item);
 	}
 	
+	double obterValorTotal () {
+		double valorTotal =0;
+		for(Item compr: listaDeCompras) {
+			valorTotal+=compr.quantidade*compr.produto.preco;
+
+			System.out.println(valorTotal);
+		}
+		return valorTotal;
+	}
 }
