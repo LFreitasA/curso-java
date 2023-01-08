@@ -1,9 +1,10 @@
 package oo.heranca.desafio;
 
-public class Ferrari extends Carro{
-	Ferrari(){
+public class Ferrari extends Carro implements Esportivo, Luxo{
+	boolean arCondicionado=false;
+	public Ferrari(){
 		super(380);
-		delta = 30;
+		setDelta(15);
 	}
 	//@Override
 	/*boolean acelerar() {
@@ -16,5 +17,27 @@ public class Ferrari extends Carro{
 				return true;
 			}
 		}*/
+
+	@Override
+	public void ligarTurbo() {
+		setDelta(55);
+		
+	}
+
+	@Override
+	public void desligarTurbo() {
+		setDelta(15);
+		
+	}
+
+	@Override
+	public void ligarAr() {
+		arCondicionado = true;
+	}
+
+	@Override
+	public void desligarAr() {
+		arCondicionado=false;
+	}
 	
 }

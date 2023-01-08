@@ -1,4 +1,7 @@
-package oo.heranca.desafio;
+package oo.heranca.teste;
+
+import oo.heranca.desafio.Civic;
+import oo.heranca.desafio.Ferrari;
 
 public class UsandoCarro {
 	public static void main(String[] args) {
@@ -24,10 +27,17 @@ public class UsandoCarro {
 		carro2.frear();
 		System.out.println(carro2.velocidadeAtual);
 		carro2.acelerar();
+		System.out.println(carro2.velocidadeAtual);
 		carro2.acelerar();
+		System.out.println(carro2.velocidadeAtual);
 		carro2.acelerar();
+		System.out.println(carro2.velocidadeAtual);
 		carro2.acelerar();
+		System.out.println(carro2.velocidadeAtual);
+		carro2.ligarTurbo();
+		System.out.println(carro2.velocidadeAtual);
 		carro2.acelerar();
+		System.out.println(carro2.velocidadeAtual);
 		carro2.acelerar();
 		System.out.println(carro2.velocidadeAtual);
 	}
