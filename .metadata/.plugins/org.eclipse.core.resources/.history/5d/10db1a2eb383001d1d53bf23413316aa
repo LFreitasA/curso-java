@@ -1,7 +1,0 @@
-package fundamentos;
-
-public class PrimeiroPrograma {
-	public  void main(String[] args) {
-		System.out.println("ola mundo!");
-	}
-}
